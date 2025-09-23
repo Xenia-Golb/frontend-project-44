@@ -8,10 +8,12 @@
 
 ## 🎮 Демонстрация игры калькулятора
 
-A game where you solve random arithmetic expressions.
-
 [![asciicast](https://asciinema.org/a/kAfQOKDaY1YOVQ8LdmywAn5Zt.svg)](https://asciinema.org/a/kAfQOKDaY1YOVQ8LdmywAn5Zt)
 
 ## 🎮 Демонстрация игры с поиском НОД
 
 [![asciicast](https://asciinema.org/a/gOWhmqTaHR1BGkzr4iVt6woN2.svg)](https://asciinema.org/a/gOWhmqTaHR1BGkzr4iVt6woN2)
+
+## 🎮 Демонстрация игры с поиском недостающего числа прогрессии
+
+[![asciicast](https://asciinema.org/a/vGFXv5IXRk3guP1hkQPsKJjs0.svg)](https://asciinema.org/a/vGFXv5IXRk3guP1hkQPsKJjs0)
