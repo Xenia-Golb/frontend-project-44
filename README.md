@@ -17,3 +17,7 @@
 ## 🎮 Демонстрация игры с поиском недостающего числа прогрессии
 
 [![asciicast](https://asciinema.org/a/vGFXv5IXRk3guP1hkQPsKJjs0.svg)](https://asciinema.org/a/vGFXv5IXRk3guP1hkQPsKJjs0)
+
+## 🎮 Демонстрация игры с проверкой на простое число
+
+[![asciicast](https://asciinema.org/a/nwyldF13deuTBmJAFxWShNNM1.svg)](https://asciinema.org/a/nwyldF13deuTBmJAFxWShNNM1)
