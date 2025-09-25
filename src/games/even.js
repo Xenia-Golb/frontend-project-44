@@ -1,12 +1,14 @@
 import readlineSync from 'readline-sync'
 
+import { generateNumber } from '@hexlet/brain-games'
+
 const isEven = num => num % 2 === 0
 
 function playEvenGame(name) {
   console.log('Answer "yes" if the number is even, otherwise answer "no".')
 
   for (let i = 0; i < 3; i += 1) {
-    const number = Math.floor(Math.random() * 100) + 1
+    const number = generateNumber(1, 100)
     console.log(`Question: ${number}`)
 
     const userAnswer = readlineSync

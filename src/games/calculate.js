@@ -1,10 +1,12 @@
+import { generateNumber } from '@hexlet/brain-games'
+
 const getRandomNumber = (min = 1, max = 100) => {
-  return Math.floor(Math.random() * (max - min + 1)) + min
+  return generateNumber(min, max)
 }
 
 const getRandomOperator = () => {
   const operators = ['+', '-', '*']
-  const randomIndex = Math.floor(Math.random() * operators.length)
+  const randomIndex = generateNumber(0, operators.length - 1)
   return operators[randomIndex]
 }
 
@@ -27,7 +29,7 @@ const getQuestionAndAnswer = () => {
   const operator = getRandomOperator()
   const question = `${num1} ${operator} ${num2}`
   const correctAnswer = String(calculate(num1, num2, operator))
-  return { question, correctAnswer }
+  return [question, correctAnswer]
 }
 
 export default getQuestionAndAnswer

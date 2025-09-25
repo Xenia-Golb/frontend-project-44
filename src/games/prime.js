@@ -1,6 +1,4 @@
-const getRandomNumber = (min = 1, max = 100) => {
-  return Math.floor(Math.random() * (max - min + 1)) + min
-}
+import { generateNumber } from '@hexlet/brain-games'
 
 const isPrime = (num) => {
   if (num < 2) return false
@@ -14,7 +12,7 @@ const isPrime = (num) => {
 }
 
 const getQuestionAndAnswer = () => {
-  const number = getRandomNumber(1, 100)
+  const number = generateNumber(1, 100)
   const question = String(number)
   const correctAnswer = isPrime(number) ? 'yes' : 'no'
   return { question, correctAnswer }

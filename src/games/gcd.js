@@ -1,6 +1,4 @@
-const getRandomNumber = (min = 1, max = 100) => {
-  return Math.floor(Math.random() * (max - min + 1)) + min
-}
+import { generateNumber } from '@hexlet/brain-games'
 
 const findGCD = (a, b) => {
   while (b !== 0) {
@@ -12,8 +10,8 @@ const findGCD = (a, b) => {
 }
 
 const getQuestionAndAnswer = () => {
-  const num1 = getRandomNumber()
-  const num2 = getRandomNumber()
+  const num1 = generateNumber(1, 100)
+  const num2 = generateNumber(1, 100)
   const question = `${num1} ${num2}`
   const correctAnswer = String(findGCD(num1, num2))
   return { question, correctAnswer }

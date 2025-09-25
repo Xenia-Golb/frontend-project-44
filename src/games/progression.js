@@ -1,6 +1,4 @@
-const getRandomNumber = (min, max) => {
-  return Math.floor(Math.random() * (max - min + 1)) + min
-}
+import { generateNumber } from '@hexlet/brain-games'
 
 const generateProgression = (start, step, length) => {
   const progression = []
@@ -11,10 +9,10 @@ const generateProgression = (start, step, length) => {
 }
 
 const getQuestionAndAnswer = () => {
-  const start = getRandomNumber(1, 10)
-  const step = getRandomNumber(2, 5)
+  const start = generateNumber(1, 100)
+  const step = generateNumber(1, 100)
   const length = 10
-  const hiddenIndex = getRandomNumber(0, length - 1)
+  const hiddenIndex = generateNumber(1, 100)
 
   const progression = generateProgression(start, step, length)
 
