@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync'
 
-import { generateNumber } from '@hexlet/brain-games'
+import { generateNumber } from '../utils/utils'
 
 const isEven = num => num % 2 === 0
 

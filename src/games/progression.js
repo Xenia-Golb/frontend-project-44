@@ -1,4 +1,4 @@
-import { generateNumber } from '@hexlet/brain-games'
+import { generateNumber } from '../utils/utils'
 
 const generateProgression = (start, step, length) => {
   const progression = []

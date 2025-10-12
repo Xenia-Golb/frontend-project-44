@@ -1,4 +1,4 @@
-import { generateNumber } from '@hexlet/brain-games'
+import { generateNumber } from '../utils/utils'
 
 const findGCD = (a, b) => {
   while (b !== 0) {

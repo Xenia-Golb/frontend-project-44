@@ -1,4 +1,4 @@
-import { generateNumber } from '@hexlet/brain-games'
+import { generateNumber } from '../utils/utils'
 
 const getRandomNumber = (min = 1, max = 100) => {
   return generateNumber(min, max)
