@@ -1,4 +1,4 @@
-import { generateNumber } from '../utils/utils'
+import { generateNumber } from '../utils/utils.js'
 
 const findGCD = (a, b) => {
   while (b !== 0) {

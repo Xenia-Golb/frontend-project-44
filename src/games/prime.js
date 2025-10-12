@@ -1,4 +1,4 @@
-import { generateNumber } from '../utils/utils'
+import { generateNumber } from '../utils/utils.js'
 
 const isPrime = (num) => {
   if (num < 2) return false

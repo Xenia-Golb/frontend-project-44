@@ -1,4 +1,4 @@
-import { generateNumber } from '../utils/utils'
+import { generateNumber } from '../utils/utils.js'
 
 const generateProgression = (start, step, length) => {
   const progression = []

@@ -1,4 +1,4 @@
-import { generateNumber } from '../utils/utils'
+import { generateNumber } from '../utils/utils.js'
 
 const getRandomNumber = (min = 1, max = 100) => {
   return generateNumber(min, max)

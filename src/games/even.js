@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync'
 
-import { generateNumber } from '../utils/utils'
+import { generateNumber } from '../utils/utils.js'
 
 const isEven = num => num % 2 === 0
 
