@@ -22,7 +22,7 @@ const getQuestionAndAnswer = () => {
 
   const question = progression.join(' ')
 
-  return { question, correctAnswer }
+  return [question, correctAnswer]
 }
 
 export default getQuestionAndAnswer

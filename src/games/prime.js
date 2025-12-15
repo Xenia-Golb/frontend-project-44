@@ -15,7 +15,7 @@ const getQuestionAndAnswer = () => {
   const number = generateNumber(1, 100)
   const question = String(number)
   const correctAnswer = isPrime(number) ? 'yes' : 'no'
-  return { question, correctAnswer }
+  return [question, correctAnswer]
 }
 
 export default getQuestionAndAnswer

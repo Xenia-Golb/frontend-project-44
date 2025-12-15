@@ -14,7 +14,7 @@ const getQuestionAndAnswer = () => {
   const num2 = generateNumber(1, 100)
   const question = `${num1} ${num2}`
   const correctAnswer = String(findGCD(num1, num2))
-  return { question, correctAnswer }
+  return [question, correctAnswer]
 }
 
 export default getQuestionAndAnswer
